@@ -4,7 +4,7 @@ import App from './App.vue'
 import Home from "./pages/Home.vue";
 import Favorite from "./pages/Favorite.vue";
 import Preview from "./pages/Preview.vue";
-import 'vue-blurhash/dist/vue-blurhash.css'
+
 import {createRouter, createWebHashHistory} from "vue-router";
 const routes=[
     {path:'/',component:Home},
